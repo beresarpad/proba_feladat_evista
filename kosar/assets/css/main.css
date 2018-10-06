@@ -1,0 +1,175 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #ff8c00;
+    text-shadow: none;
+}
+
+::selection {
+    background: #ff8c00;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.left{float:left; }
+.right{float:right;}
+.clear{clear:both; width:100%; padding:10px;}
+.tabbable { padding: 2%;}
+
+.navbar-right { margin-right:0px;}
+
+.hidden {
+    display: none !important;
+}
+/*
+ *body
+ */
+
+body {
+    background-color: #6699ff;
+    color: #000;
+    font-family: "Open Sans";
+    padding-top: 80px;
+}
+
+/*
+ *form style
+ */
+
+label {
+    text-transform: uppercase;
+}
+
+.form-control {
+    color: #000;
+    border: 1px solid #a5a5a5;
+    border-radius: 0px;
+}
+
+/*
+ *link
+ */
+
+a {
+    color: #ff9933;
+}
+a:hover,
+a:focus {
+    color: #ff9933;
+}
+
+/*
+ * gomb
+ */
+
+.btn-default {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #ff8c00;
+    border-color: transparent;
+    border-radius: 6px;
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    padding: 5px 8px;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active {
+    color: #000;
+    background-color: #ff8c00;
+    border-color: #000;
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    background-color: #ff8c00;
+    border-color: transparent;
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: 0;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+    color: #fff;
+}
+
+/*
+ *hibaüzenet
+ */
+
+.alert-danger {
+    color: #fff;
+    background-color: #ff8c00;
+    border-color: #fff;
+}
+
+.alert-warning {
+    color: #4d4d4d;
+    background-color: #f7e841;
+    border-color: #f7e841;
+}
+
+.box .left a button,
+.box .right a button {
+    padding: 5px 8px;
+}
+
+/*
+ *Bejelentkezés
+ */
+
+.login_form {
+    margin-top: 20%;
+}
+
+/*
+ *Fejléc
+ */
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #b0b0b0;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+}
+
+.navbar-nav {
+    padding: 1em 0;
+}
+
+.navbar-brand {
+    height: 72px;
+}
