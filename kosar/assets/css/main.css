@@ -100,8 +100,7 @@ a:focus {
     -o-transition: none;
 }
 .btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
+.btn-default.active {
     background-color: #ff8c00;
     border-color: transparent;
     transition: none;
