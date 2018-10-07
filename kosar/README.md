@@ -1,9 +1,14 @@
-# CodeIgniter 2
-Open Source PHP Framework (originally from EllisLab)
+Kedves András!
 
-For more info, please refer to the user-guide at http://www.codeigniter.com/userguide2/  
-(also available within the download package for offline use)
+Elkészítettem a feladatot, amennyire a jelenlegi ismeretem engedte.
+Egy kis instrukció a helyes beállításokhoz:
+A feladat megvalósításához CodeIgniter keretrendszert használtam.
+Itt a gyökérben megtalálható a kosar.sql, amely tartalmazza az adatbázist (mysql struktúra és adatok).
+A használatához egy "kosar_user" nevű felhasználót is fel kell venni az abatbázisban az alábbi jelszóval: "Succ5_55";
 
-**WARNING:** *CodeIgniter 2.x is no longer under development and only receives security patches until October 31st, 2015.
-Please update your installation to the latest CodeIgniter 3.x version available
-(upgrade instructions [here](http://www.codeigniter.com/userguide3/installation/upgrade_300.html)).*
+Mindennemű adatbázisbeállítás megtalálható a ../application/config/database.php-ben.
+
+A megjelenítéshez mindösszessen bootsrtap-et használtam, a leírt frontendekkel még csak most kezdtem ismerkedni.
+(Sajnos eddigi munkáim során nem kellett még különböző frontendeket használnom.)
+
+Mindamellett remélem sikerült megvalósítanom a kért feladatot. :)
